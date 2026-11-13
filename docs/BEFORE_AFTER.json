@@ -1,0 +1,730 @@
+{
+  "date": "2026-11-11",
+  "synthetic_profiles": true,
+  "same_ten_cached_jobs": true,
+  "new_apify_runs": 0,
+  "baseline_commit": "6d4cb70aea32c2b35d77ec57a45004e9f1a9b631",
+  "input_hashes": {
+    "before-jobs.json": "3b1116c5bc954d7fe3e2c3320fd778e6f59f3169078840ff1d8f2274af84728f",
+    "before-candidate-model-inputs.json": "b041a5669b2105cda93feb8532f1631ba774aa4b58549f23eeff3c2f5c8fb9f4",
+    "before-metrics.json": "a20f8b0a3631b6fff933728a46e9238a769ba158a0d7dcdaa842f772c3002d62",
+    "before-refinements.json": "f79310a57e944ea38e81de33fa22c0cef3668b502a2ae797046bf0d3fadbcbdf",
+    "before-rankings.json": "c5f9f5cedb9003783320e8b167c17a9e4273a8308a570187034acc5464b9e0bd",
+    "before-candidate-summaries.json": "d6d334579cb93a7e0deae13749f51d608b5cf14b6aecb2e83b3e2ef7a6c74b22",
+    "before-native-output.md": "546588ec8be801a2a6d608c6d64f0f4eb2d595069c95a973fe175219e222f325"
+  },
+  "original_profile_facts": {
+    "product_mid_remote_germany": {
+      "synthetic": true,
+      "experience": "Four years in product analytics; onboarding SQL analysis, A/B tests, Python exploratory analysis and dashboards. No established gaming or mobile app/Adobe Analytics experience.",
+      "target": "Product Analyst or Product Data Analyst",
+      "constraints": "Remote from Germany is required; candidate states Germany work authorization without sponsorship. Salary floor unknown."
+    },
+    "gaming_senior_remote": {
+      "synthetic": true,
+      "experience": "Six years of mobile game analytics; SQL, Python, A/B tests, monetization, player behavior, dashboards, collaboration with live game product teams.",
+      "target": "Game Data Analyst",
+      "constraints": "Remote from Germany; sponsorship requirements unknown."
+    },
+    "junior_reporting": {
+      "synthetic": true,
+      "experience": "Six-month reporting internship; Excel and Power BI. No demonstrated SQL, Python, A/B testing or independent product analytics ownership.",
+      "target": "Junior Data Analyst",
+      "constraints": "Berlin, any workplace; requires visa sponsorship; salary floor unknown."
+    }
+  },
+  "new_structured_inputs": {
+    "product_mid_remote_germany": {
+      "skills": [
+        "SQL",
+        "Python",
+        "A/B testing",
+        "dashboards"
+      ],
+      "target_titles": [
+        "Product Analyst",
+        "Product Data Analyst"
+      ],
+      "locations": [
+        "Berlin",
+        "Germany"
+      ],
+      "workplace": "remote",
+      "requires_sponsorship": false,
+      "experience_years": 4,
+      "target_seniority": "mid",
+      "remote_from_country": "DE",
+      "domains": [
+        "product analytics"
+      ]
+    },
+    "gaming_senior_remote": {
+      "skills": [
+        "SQL",
+        "Python",
+        "A/B testing",
+        "monetization",
+        "player behavior"
+      ],
+      "target_titles": [
+        "Game Data Analyst"
+      ],
+      "locations": [
+        "Germany"
+      ],
+      "workplace": "remote",
+      "requires_sponsorship": null,
+      "experience_years": 6,
+      "target_seniority": "senior",
+      "remote_from_country": "DE",
+      "domains": [
+        "gaming",
+        "mobile analytics"
+      ]
+    },
+    "junior_reporting": {
+      "skills": [
+        "Excel",
+        "Power BI"
+      ],
+      "target_titles": [
+        "Junior Data Analyst"
+      ],
+      "locations": [
+        "Berlin"
+      ],
+      "workplace": "any",
+      "requires_sponsorship": true,
+      "experience_years": 0.5,
+      "target_seniority": "junior",
+      "domains": [
+        "reporting"
+      ]
+    }
+  },
+  "results": {
+    "product_mid_remote_germany": {
+      "decision_counts": {
+        "prioritize": 0,
+        "investigate": 7,
+        "deprioritize": 3
+      },
+      "no_supported_priority": true,
+      "matches": [
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4488681762/",
+          "title": "Product Analyst | Mobile App",
+          "source_company": "Kaufland e-commerce",
+          "employer": "Kaufland e-commerce",
+          "publisher": null,
+          "before_rank": 4,
+          "before_lexical_score": 80,
+          "after_rank": 1,
+          "after_lexical_score": 90,
+          "ranking_score": 84,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: mobile analytics."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4444702320/",
+          "title": "Senior Product Analyst",
+          "source_company": "Pennylane",
+          "employer": "Pennylane",
+          "publisher": null,
+          "before_rank": 2,
+          "before_lexical_score": 80,
+          "after_rank": 2,
+          "after_lexical_score": 80,
+          "ranking_score": 58,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Posting states 5+ years; candidate explicitly supplies 4 years. This is preferred/uncertain experience, not a hard rejection.",
+            "Posting level is senior, while the supplied target is mid; review role scope.",
+            "The remote arrangement is conditional on role/team or approval; verify that it applies to this vacancy."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4479537318/",
+          "title": "Senior Game Data Analyst - Paper.io 2",
+          "source_company": "Voodoo",
+          "employer": "Voodoo",
+          "publisher": null,
+          "before_rank": 1,
+          "before_lexical_score": 80,
+          "after_rank": 3,
+          "after_lexical_score": 80,
+          "ranking_score": 52,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Posting level is senior, while the supplied target is mid; review role scope.",
+            "Required/expected experience domains are not evidenced by the supplied profile: gaming.",
+            "Recognized required skills are not evidenced in the supplied profile: player behavior. Missing evidence is not proof of missing ability.",
+            "Remote employment from DE is not established by the saved policy; a timezone rule alone is insufficient."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4480031765/",
+          "title": "Data Analyst - (Mid level)(F/M/X)",
+          "source_company": "ablefy",
+          "employer": "ablefy",
+          "publisher": null,
+          "before_rank": 5,
+          "before_lexical_score": 70,
+          "after_rank": 4,
+          "after_lexical_score": 70,
+          "ranking_score": 52,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Recognized required skills are not evidenced in the supplied profile: data modeling. Missing evidence is not proof of missing ability.",
+            "Workplace arrangement is unknown for the requested remote condition."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4485841162/",
+          "title": "Product Owner - Data Analytics (m/w/d)",
+          "source_company": "Berliner Verlag",
+          "employer": "Berliner Verlag",
+          "publisher": null,
+          "before_rank": 7,
+          "before_lexical_score": 50,
+          "after_rank": 5,
+          "after_lexical_score": 60,
+          "ranking_score": 42,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: product management.",
+            "Workplace arrangement is unknown for the requested remote condition."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4461901236/",
+          "title": "Senior Quantitative Analyst",
+          "source_company": "F. Schumacher & Co.",
+          "employer": "F. Schumacher & Co.",
+          "publisher": null,
+          "before_rank": 9,
+          "before_lexical_score": 50,
+          "after_rank": 6,
+          "after_lexical_score": 50,
+          "ranking_score": 38,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Posting level is senior, while the supplied target is mid; review role scope.",
+            "Recognized required skills are not evidenced in the supplied profile: Snowflake. Missing evidence is not proof of missing ability."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4487483431/",
+          "title": "UX & Usability Analyst (m/w/d)",
+          "source_company": "Jobs-im-Allgäu.de",
+          "employer": "June Fund GmbH",
+          "publisher": "Jobs-im-Allgäu.de",
+          "before_rank": 10,
+          "before_lexical_score": 30,
+          "after_rank": 7,
+          "after_lexical_score": 30,
+          "ranking_score": 18,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Workplace arrangement is unknown for the requested remote condition."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4487169531/",
+          "title": "Senior Product Analyst",
+          "source_company": "SumUp",
+          "employer": "SumUp",
+          "publisher": null,
+          "before_rank": 3,
+          "before_lexical_score": 80,
+          "after_rank": 8,
+          "after_lexical_score": 90,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states onsite; the candidate explicitly requests remote."
+          ],
+          "critical_unknowns": [
+            "Posting level is senior, while the supplied target is mid; review role scope.",
+            "Recognized required skills are not evidenced in the supplied profile: Tableau or Power BI, Snowflake, PostgreSQL. Missing evidence is not proof of missing ability."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4472711447/",
+          "title": "Manager Data Analytics, Global Marketing (m/f/d)",
+          "source_company": "Sonova Group",
+          "employer": "Sonova Group",
+          "publisher": null,
+          "before_rank": 6,
+          "before_lexical_score": 60,
+          "after_rank": 9,
+          "after_lexical_score": 60,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 5+ years; candidate explicitly supplies 4 years.",
+            "Posting states hybrid; the candidate explicitly requests remote."
+          ],
+          "critical_unknowns": [
+            "Posting level is manager, while the supplied target is mid; review role scope.",
+            "Required/expected experience domains are not evidenced by the supplied profile: marketing analytics.",
+            "Recognized required skills are not evidenced in the supplied profile: Power BI, Excel. Missing evidence is not proof of missing ability.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4486213928/",
+          "title": "Senior Business Analyst (all genders) - Lounge by Zalando - Parental Leave Cover (12 months)",
+          "source_company": "Zalando",
+          "employer": "Zalando",
+          "publisher": null,
+          "before_rank": 8,
+          "before_lexical_score": 50,
+          "after_rank": 10,
+          "after_lexical_score": 50,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 5+ years; candidate explicitly supplies 4 years."
+          ],
+          "critical_unknowns": [
+            "Posting level is senior, while the supplied target is mid; review role scope.",
+            "Workplace arrangement is unknown for the requested remote condition."
+          ]
+        }
+      ]
+    },
+    "gaming_senior_remote": {
+      "decision_counts": {
+        "prioritize": 0,
+        "investigate": 8,
+        "deprioritize": 2
+      },
+      "no_supported_priority": true,
+      "matches": [
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4479537318/",
+          "title": "Senior Game Data Analyst - Paper.io 2",
+          "source_company": "Voodoo",
+          "employer": "Voodoo",
+          "publisher": null,
+          "before_rank": 1,
+          "before_lexical_score": 100,
+          "after_rank": 1,
+          "after_lexical_score": 100,
+          "ranking_score": 90,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Remote employment from DE is not established by the saved policy; a timezone rule alone is insufficient."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4480031765/",
+          "title": "Data Analyst - (Mid level)(F/M/X)",
+          "source_company": "ablefy",
+          "employer": "ablefy",
+          "publisher": null,
+          "before_rank": 2,
+          "before_lexical_score": 56,
+          "after_rank": 2,
+          "after_lexical_score": 56,
+          "ranking_score": 32,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Posting level is mid, while the supplied target is senior; review role scope.",
+            "Recognized required skills are not evidenced in the supplied profile: data modeling. Missing evidence is not proof of missing ability.",
+            "Workplace arrangement is unknown for the requested remote condition."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4488681762/",
+          "title": "Product Analyst | Mobile App",
+          "source_company": "Kaufland e-commerce",
+          "employer": "Kaufland e-commerce",
+          "publisher": null,
+          "before_rank": 7,
+          "before_lexical_score": 36,
+          "after_rank": 3,
+          "after_lexical_score": 44,
+          "ranking_score": 26,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: product analytics.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4461901236/",
+          "title": "Senior Quantitative Analyst",
+          "source_company": "F. Schumacher & Co.",
+          "employer": "F. Schumacher & Co.",
+          "publisher": null,
+          "before_rank": 6,
+          "before_lexical_score": 36,
+          "after_rank": 4,
+          "after_lexical_score": 36,
+          "ranking_score": 18,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Recognized required skills are not evidenced in the supplied profile: Snowflake. Missing evidence is not proof of missing ability.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4486213928/",
+          "title": "Senior Business Analyst (all genders) - Lounge by Zalando - Parental Leave Cover (12 months)",
+          "source_company": "Zalando",
+          "employer": "Zalando",
+          "publisher": null,
+          "before_rank": 5,
+          "before_lexical_score": 36,
+          "after_rank": 5,
+          "after_lexical_score": 36,
+          "ranking_score": 12,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Workplace arrangement is unknown for the requested remote condition.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4444702320/",
+          "title": "Senior Product Analyst",
+          "source_company": "Pennylane",
+          "employer": "Pennylane",
+          "publisher": null,
+          "before_rank": 4,
+          "before_lexical_score": 36,
+          "after_rank": 6,
+          "after_lexical_score": 36,
+          "ranking_score": 10,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: product analytics.",
+            "The remote arrangement is conditional on role/team or approval; verify that it applies to this vacancy.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4485841162/",
+          "title": "Product Owner - Data Analytics (m/w/d)",
+          "source_company": "Berliner Verlag",
+          "employer": "Berliner Verlag",
+          "publisher": null,
+          "before_rank": 9,
+          "before_lexical_score": 20,
+          "after_rank": 7,
+          "after_lexical_score": 28,
+          "ranking_score": 0,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: product analytics, product management.",
+            "Recognized required skills are not evidenced in the supplied profile: dashboards. Missing evidence is not proof of missing ability.",
+            "Workplace arrangement is unknown for the requested remote condition.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4487483431/",
+          "title": "UX & Usability Analyst (m/w/d)",
+          "source_company": "Jobs-im-Allgäu.de",
+          "employer": "June Fund GmbH",
+          "publisher": "Jobs-im-Allgäu.de",
+          "before_rank": 10,
+          "before_lexical_score": 20,
+          "after_rank": 8,
+          "after_lexical_score": 20,
+          "ranking_score": 0,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Workplace arrangement is unknown for the requested remote condition.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4472711447/",
+          "title": "Manager Data Analytics, Global Marketing (m/f/d)",
+          "source_company": "Sonova Group",
+          "employer": "Sonova Group",
+          "publisher": null,
+          "before_rank": 3,
+          "before_lexical_score": 44,
+          "after_rank": 9,
+          "after_lexical_score": 44,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states hybrid; the candidate explicitly requests remote."
+          ],
+          "critical_unknowns": [
+            "Posting level is manager, while the supplied target is senior; review role scope.",
+            "Required/expected experience domains are not evidenced by the supplied profile: marketing analytics.",
+            "Recognized required skills are not evidenced in the supplied profile: Power BI, Excel. Missing evidence is not proof of missing ability.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4487169531/",
+          "title": "Senior Product Analyst",
+          "source_company": "SumUp",
+          "employer": "SumUp",
+          "publisher": null,
+          "before_rank": 8,
+          "before_lexical_score": 28,
+          "after_rank": 10,
+          "after_lexical_score": 36,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states onsite; the candidate explicitly requests remote."
+          ],
+          "critical_unknowns": [
+            "Recognized required skills are not evidenced in the supplied profile: Tableau or Power BI, Snowflake, PostgreSQL. Missing evidence is not proof of missing ability.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        }
+      ]
+    },
+    "junior_reporting": {
+      "decision_counts": {
+        "prioritize": 0,
+        "investigate": 1,
+        "deprioritize": 9
+      },
+      "no_supported_priority": true,
+      "matches": [
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4487483431/",
+          "title": "UX & Usability Analyst (m/w/d)",
+          "source_company": "Jobs-im-Allgäu.de",
+          "employer": "June Fund GmbH",
+          "publisher": "Jobs-im-Allgäu.de",
+          "before_rank": 8,
+          "before_lexical_score": 20,
+          "after_rank": 1,
+          "after_lexical_score": 20,
+          "ranking_score": 8,
+          "recommendation": "investigate",
+          "conflicts": [],
+          "critical_unknowns": [
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4472711447/",
+          "title": "Manager Data Analytics, Global Marketing (m/f/d)",
+          "source_company": "Sonova Group",
+          "employer": "Sonova Group",
+          "publisher": null,
+          "before_rank": 1,
+          "before_lexical_score": 60,
+          "after_rank": 2,
+          "after_lexical_score": 60,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 5+ years; candidate explicitly supplies 0.5 years.",
+            "Explicit junior target conflicts with the posting's manager role level."
+          ],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: marketing analytics.",
+            "Recognized required skills are not evidenced in the supplied profile: SQL. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4479537318/",
+          "title": "Senior Game Data Analyst - Paper.io 2",
+          "source_company": "Voodoo",
+          "employer": "Voodoo",
+          "publisher": null,
+          "before_rank": 2,
+          "before_lexical_score": 40,
+          "after_rank": 3,
+          "after_lexical_score": 40,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 4+ years; candidate explicitly supplies 0.5 years.",
+            "Explicit junior target conflicts with the posting's senior role level."
+          ],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: gaming.",
+            "Recognized required skills are not evidenced in the supplied profile: SQL, R or Python, A/B testing, player behavior. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4461901236/",
+          "title": "Senior Quantitative Analyst",
+          "source_company": "F. Schumacher & Co.",
+          "employer": "F. Schumacher & Co.",
+          "publisher": null,
+          "before_rank": 3,
+          "before_lexical_score": 40,
+          "after_rank": 4,
+          "after_lexical_score": 40,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 2+ years; candidate explicitly supplies 0.5 years.",
+            "Explicit junior target conflicts with the posting's senior role level."
+          ],
+          "critical_unknowns": [
+            "Recognized required skills are not evidenced in the supplied profile: SQL, Python, Snowflake. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4480031765/",
+          "title": "Data Analyst - (Mid level)(F/M/X)",
+          "source_company": "ablefy",
+          "employer": "ablefy",
+          "publisher": null,
+          "before_rank": 4,
+          "before_lexical_score": 40,
+          "after_rank": 5,
+          "after_lexical_score": 40,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 3+ years; candidate explicitly supplies 0.5 years."
+          ],
+          "critical_unknowns": [
+            "Posting level is mid, while the supplied target is junior; review role scope.",
+            "Recognized required skills are not evidenced in the supplied profile: SQL, data modeling, Python. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4487169531/",
+          "title": "Senior Product Analyst",
+          "source_company": "SumUp",
+          "employer": "SumUp",
+          "publisher": null,
+          "before_rank": 5,
+          "before_lexical_score": 40,
+          "after_rank": 6,
+          "after_lexical_score": 40,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Explicit junior target conflicts with the posting's senior role level."
+          ],
+          "critical_unknowns": [
+            "Recognized required skills are not evidenced in the supplied profile: SQL, Snowflake, PostgreSQL, A/B testing. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4485841162/",
+          "title": "Product Owner - Data Analytics (m/w/d)",
+          "source_company": "Berliner Verlag",
+          "employer": "Berliner Verlag",
+          "publisher": null,
+          "before_rank": 6,
+          "before_lexical_score": 20,
+          "after_rank": 7,
+          "after_lexical_score": 20,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 3+ years; candidate explicitly supplies 0.5 years."
+          ],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: product analytics, product management.",
+            "Recognized required skills are not evidenced in the supplied profile: dashboards. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4444702320/",
+          "title": "Senior Product Analyst",
+          "source_company": "Pennylane",
+          "employer": "Pennylane",
+          "publisher": null,
+          "before_rank": 7,
+          "before_lexical_score": 20,
+          "after_rank": 8,
+          "after_lexical_score": 20,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Explicit junior target conflicts with the posting's senior role level."
+          ],
+          "critical_unknowns": [
+            "Posting states 5+ years; candidate explicitly supplies 0.5 years. This is preferred/uncertain experience, not a hard rejection.",
+            "Required/expected experience domains are not evidenced by the supplied profile: product analytics.",
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4486213928/",
+          "title": "Senior Business Analyst (all genders) - Lounge by Zalando - Parental Leave Cover (12 months)",
+          "source_company": "Zalando",
+          "employer": "Zalando",
+          "publisher": null,
+          "before_rank": 9,
+          "before_lexical_score": 20,
+          "after_rank": 9,
+          "after_lexical_score": 20,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 5+ years; candidate explicitly supplies 0.5 years.",
+            "Explicit junior target conflicts with the posting's senior role level."
+          ],
+          "critical_unknowns": [
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        },
+        {
+          "job_url": "https://www.linkedin.com/jobs/view/4488681762/",
+          "title": "Product Analyst | Mobile App",
+          "source_company": "Kaufland e-commerce",
+          "employer": "Kaufland e-commerce",
+          "publisher": null,
+          "before_rank": 10,
+          "before_lexical_score": 20,
+          "after_rank": 10,
+          "after_lexical_score": 20,
+          "ranking_score": 0,
+          "recommendation": "deprioritize",
+          "conflicts": [
+            "Posting states 2+ years; candidate explicitly supplies 0.5 years."
+          ],
+          "critical_unknowns": [
+            "Required/expected experience domains are not evidenced by the supplied profile: mobile analytics, product analytics.",
+            "Recognized required skills are not evidenced in the supplied profile: SQL or Python. Missing evidence is not proof of missing ability.",
+            "Sponsorship availability is unverified; do not infer from silence.",
+            "The title is only loosely related to the supplied target; review the role's actual scope."
+          ]
+        }
+      ]
+    }
+  }
+}

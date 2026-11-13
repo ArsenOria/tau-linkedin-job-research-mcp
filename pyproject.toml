@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tau-job-scout"
+version = "0.3.0"
+description = "LinkedIn job research MCP server for AI chat, with your own Apify token"
+keywords = ["linkedin-job-research", "job-research", "mcp-server", "model-context-protocol", "apify", "job-matching", "ai-chat", "local-first"]
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Tau contributors"}]
+dependencies = ["mcp>=1.30,<2", "httpx>=0.28,<1", "pydantic>=2.12,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2", "build>=1,<2"]
+
+[project.scripts]
+tau-job-scout = "tau_scout.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tau_scout"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

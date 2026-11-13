@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">Tau Scout — LinkedIn job research through local MCP.</title>
+<desc id="desc">Ask in chat. Search with your Apify account. Local tools. Clear evidence. Saved results. An illustrative chat shows an evidence-based research workflow.</desc>
+<defs><linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2462F4"/><stop offset="1" stop-color="#A22AEB"/></linearGradient><radialGradient id="glow"><stop stop-color="#6451CC" stop-opacity=".38"/><stop offset="1" stop-color="#6451CC" stop-opacity="0"/></radialGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.brand{font-size:31px;font-weight:700;letter-spacing:-1px}.title{font-size:47px;font-weight:700;letter-spacing:-1.7px}.body{font-size:18px}.small{font-size:17px}.label{font-size:11px;font-weight:700;letter-spacing:1.5px}.cardtitle{font-size:24px;font-weight:700;letter-spacing:-.5px}.tag{font-size:14px;font-weight:700}</style>
+<rect width="1200" height="500" rx="24" fill="#111121"/>
+<ellipse cx="1030" cy="240" rx="430" ry="340" fill="url(#glow)"/>
+<path d="M630 72V428" stroke="#353348" stroke-width="1"/>
+<g transform="translate(61,57) scale(.47)"><path d="M0 0H78V16H44V50C44 65 52 73 66 73H71V89H65C40 89 25 75 25 51V16H0Z" fill="url(#brand)"/></g>
+<text x="111" y="91" class="brand" fill="#FFFFFF">Tau Scout</text>
+<text x="60" y="186" class="title" fill="#FFFFFF">LinkedIn job research</text>
+<text x="60" y="244" class="title" fill="#D2C8FF">through local MCP.</text>
+<text x="62" y="297" class="body" fill="#B7B6CB">Ask in chat. Search with your Apify account.</text>
+<text x="62" y="327" class="body" fill="#B7B6CB">Local tools. Clear evidence. Saved results.</text>
+<rect x="60" y="370" width="234" height="41" rx="20.5" fill="#28233E" stroke="#514472"/>
+<text x="81" y="396" class="small" fill="#DDD4FF">CV → research → shortlist</text>
+<rect x="688" y="132" width="414" height="54" rx="13" fill="#25263F"/>
+ <text x="708" y="166" class="body" fill="#E7E7F6">Find analyst roles. Show the evidence.</text>
+ <rect x="652" y="207" width="420" height="189" rx="16" fill="#F8F8FD"/>
+ <text x="676" y="240" class="label" fill="#686478">SYNTHETIC WORKFLOW PREVIEW</text>
+ <text x="676" y="276" class="cardtitle" fill="#19192C">Product Analyst · Berlin</text>
+ <rect x="676" y="295" width="138" height="28" rx="14" fill="#E8E3FF"/>
+ <text x="690" y="314" class="tag" fill="#6243D7">Investigate first</text>
+ <text x="676" y="352" class="small" fill="#49475A">SQL matches. Remote policy unclear.</text>
+ <text x="676" y="379" class="small" fill="#49475A">Refine the saved shortlist in chat.</text>
+<text x="60" y="459" class="label" fill="#807D98">OPEN SOURCE  /  LOCAL STDIO MCP SERVER</text>
+<text x="1076" y="459" class="label" fill="#A7A0C7" text-anchor="end">GET-TAU.COM</text>
+</svg>
