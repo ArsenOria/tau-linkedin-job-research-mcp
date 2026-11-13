@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://get-tau.com"><img src="assets/readme/scout-banner.svg" alt="Tau Scout — LinkedIn Job Research MCP" width="1200" /></a>
+  <a href="https://get-tau.com"><img src="assets/readme/scout-banner.svg" alt="Tau Scout — LinkedIn Job Search MCP Server" width="1200" /></a>
 </p>
 
-<h1 align="center">Tau Scout — LinkedIn Job Research MCP</h1>
+<h1 align="center">Tau Scout — LinkedIn Job Search MCP Server</h1>
 
 <p align="center"><strong>Find, compare and refine LinkedIn job shortlists from your AI chat.</strong></p>
 
@@ -25,17 +25,19 @@
   <a href="https://get-tau.com">Explore Tau</a>
 </p>
 
-Tau Scout is a local **LinkedIn job research MCP** server for finding and comparing jobs through a conversation with an AI assistant. Bring your own Apify account. No Tau server, Tau account, LinkedIn login, or second model API key.
+Tau Scout is a local **LinkedIn job search MCP server** for finding and comparing jobs through a conversation with an AI assistant. It connects your AI chat to an Apify jobs source, saves results locally, and helps review skills, experience, student-program eligibility and remote constraints. Bring your own Apify account and token. No Tau server, Tau account, LinkedIn login, or second model API key.
 
 **v0.3 is a developer preview.** The working workflow is MCP-driven; there is no end-user search CLI or dashboard. A compatible local stdio MCP client must launch the installed Python package. Initial installation and secret configuration are setup steps; a one-click installer is not implemented.
 
-## How the LinkedIn job research MCP works
+## How the LinkedIn job search MCP server works
 
 | Ask in AI chat | Search with Scout | Refine the shortlist |
 |---|---|---|
 | Supply a role, location and search cap. | Your local MCP server calls Apify using your own token. | Compare CV evidence, experience, student-program requirements and remote constraints. |
 
 The **LinkedIn job shortlist** stays available locally for follow-up review. Live searches use your Apify balance; demo and saved-result refinement need no paid search.
+
+New to this setup? The [LinkedIn job search MCP guide](docs/linkedin-job-search-mcp.md) explains how the chat, local server and Apify token fit together, with a free first check and a bounded live-search example.
 
 ## What you say in chat
 

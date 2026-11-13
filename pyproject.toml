@@ -5,8 +5,8 @@ build-backend = "hatchling.build"
 [project]
 name = "tau-job-scout"
 version = "0.3.0"
-description = "LinkedIn job research MCP server for AI chat, with your own Apify token"
-keywords = ["linkedin-job-research", "job-research", "mcp-server", "model-context-protocol", "apify", "job-matching", "ai-chat", "local-first"]
+description = "LinkedIn job search MCP server for AI chat, with your own Apify token"
+keywords = ["linkedin-job-search", "linkedin-jobs", "job-search-mcp", "mcp-server", "model-context-protocol", "apify", "job-matching", "ai-chat", "local-first"]
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"

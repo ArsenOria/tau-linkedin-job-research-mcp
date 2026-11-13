@@ -1,61 +1,71 @@
-# Search positioning for Tau Skills and Tau Scout
+# Tau Scout search positioning: Google demand and competition
 
-Research date: **12 November 2026**. This is a dated discovery snapshot, not a search-volume study or a guarantee of search-engine placement.
+Research date: **13 November 2026**. This is a dated, bounded discovery study. Monthly search volume and numeric Google keyword difficulty are **unknown**. The recommended wording is a testable positioning choice, not a promise of traffic or rankings.
 
-## Recommended names and phrase families
+## Decision
 
-| Repository | Display title / primary phrase | Suggested public slug | Short description |
-|---|---|---|---|
-| Skills | **Tau Skills — Job Research Skills for AI Chat** | `tau-job-research-skills` | Job research skills for AI chat: turn a CV and preferences into an evidence-based shortlist, fit review and company brief. |
-| Scout | **Tau Scout — LinkedIn Job Research MCP** | `tau-linkedin-job-research-mcp` | Local LinkedIn job research MCP server with your own Apify token, CV-to-job fit checks and evidence-based shortlists. |
+Use **Tau Scout — LinkedIn Job Search MCP Server** as the display title. Use **LinkedIn jobs MCP server** as a natural secondary variant and explain **Apify setup with your own token** in the connection guide. Keep the published repository URL, Python package, executable and MCP tool names stable.
 
-The Python package and installed executable can remain `tau-job-scout`; a descriptive public repository slug does not require renaming the runtime. Keep clone-directory instructions consistent with whichever slug is published. Brand + task + format gives each repository a distinct purpose while the companion links connect them.
+The `job search` phrase family has relevant Google Autocomplete suggestions and matches Scout's actual job-search workflow. Actual Google results also show a meaningful incumbent: `stickerdaniel/linkedin-mcp-server`, with **4,205 GitHub stars** at the check. This is **moderate competition**, not an empty or easy niche. No GitHub project with tens of thousands of stars appeared in the two sampled LinkedIn job-search result sets, but that observation does not establish a complete competitor census or a measurable ranking advantage.
 
-## Competition sample
+**Correction to the 12 November study:** sparse exact GitHub metadata matches for `LinkedIn job research MCP` did not establish Google demand or low Google competition. The actual Google query returns existing job-search products and directories. `job research` remains an accurate description of the broader workflow, but is no longer Scout's primary discovery phrase.
 
-The counts below are the live GitHub repository-search `total_count` returned for the **exact query shown**, sorted by stars, with the highest-star results inspected. They are not Google result counts, full-text/code occurrence counts, traffic estimates, or measures of how hard it will be to rank. A zero means this bounded query returned no repositories; related projects still exist.
+## Demand signals, kept separate from volume
 
-| Phrase | Reproducible GitHub query | Returned repositories | Highest observed competitor(s), stars | Decision |
-|---|---|---:|---|---|
-| AI job search | [`"ai job search"`](https://github.com/search?q=%22ai%20job%20search%22&type=repositories&s=stars&o=desc) | 1,761 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) — 82,111; [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) — 71,364 | High overlap with large application frameworks; secondary context only. |
-| LinkedIn scraper | [`"linkedin scraper"`](https://github.com/search?q=%22linkedin%20scraper%22&type=repositories&s=stars&o=desc) | 1,296 | [joeyism/linkedin_scraper](https://github.com/joeyism/linkedin_scraper) — 4,675 | Broad scraping intent includes profiles, not just job research; secondary source explanation only. |
-| LinkedIn MCP | [`"linkedin" mcp`](https://github.com/search?q=%22linkedin%22%20mcp&type=repositories&s=stars&o=desc) | 1,480 | [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) — 4,191 | Large adjacent profile/message/browser MCP; retain as secondary category. |
-| Job research skills | [`"job research skills"`](https://github.com/search?q=%22job%20research%20skills%22&type=repositories&s=stars&o=desc) | 1 | [rumihut/job-researcher-landing](https://github.com/rumihut/job-researcher-landing) — 0 | Best Skills phrase family; accurate and comparatively sparse exact metadata match. |
-| Job research for AI chat | [`"job research" "AI chat"`](https://github.com/search?q=%22job%20research%22%20%22AI%20chat%22&type=repositories&s=stars&o=desc) | 0 | No returned repository for this query | Use to explain the chat workflow; demand was not measured. |
-| LinkedIn job research MCP | [`"linkedin job research" mcp`](https://github.com/search?q=%22linkedin%20job%20research%22%20mcp&type=repositories&s=stars&o=desc) | 0 | No returned repository for this query | Best Scout primary phrase: source + user task + integration. |
-| Apify job research MCP | [`"apify" "job research" mcp`](https://github.com/search?q=%22apify%22%20%22job%20research%22%20mcp&type=repositories&s=stars&o=desc) | 0 | No returned repository for this query | Scout integration/bring-your-own-token secondary phrase. |
-| Local job research MCP | [`"local" "job research" mcp`](https://github.com/search?q=%22local%22%20%22job%20research%22%20mcp&type=repositories&s=stars&o=desc) | 0 | No returned repository for this query | Scout architecture secondary phrase; accurately reflects local stdio. |
-| Job search brief skill | [`"job search brief" skill`](https://github.com/search?q=%22job%20search%20brief%22%20skill&type=repositories&s=stars&o=desc) | 0 | No returned repository for this query | Skill-level documentation phrase; narrower than whole-repo positioning. |
-| Student job matching MCP | [`"student" "job matching" mcp`](https://github.com/search?q=%22student%22%20%22job%20matching%22%20mcp&type=repositories&s=stars&o=desc) | 0 | No returned repository for this query | Feature documentation only; Tau also serves non-student candidates. |
-| Evidence-based job matching | [`"evidence based" "job matching"`](https://github.com/search?q=%22evidence%20based%22%20%22job%20matching%22&type=repositories&s=stars&o=desc) | 31 | [5JjiaLin/JobHuntBot](https://github.com/5JjiaLin/JobHuntBot) — 2 | Useful feature language; hyphenation/variants affect search results. |
-| Codex job research skills | [`"codex" "job research" skills`](https://github.com/search?q=%22codex%22%20%22job%20research%22%20skills&type=repositories&s=stars&o=desc) | 7 | [qiusuo0226/job-research-analyst-skill](https://github.com/qiusuo0226/job-research-analyst-skill) — 2 | Skills client-specific secondary phrase; avoid implying universal client support. |
+We checked ten English query seeds through [Google's public Autocomplete endpoint](https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=linkedin+job+search+mcp), requesting `hl=en&gl=us`. Effective localization was not independently established. Only relevant suggestions are shown below; unrelated suggestions were excluded.
 
-A broader query, `"job research" skills`, returned **26 repositories**, led by [TheQuantPy/quant-jobs-research](https://github.com/TheQuantPy/quant-jobs-research) at **13 stars**. The narrower exact phrase `"job research skills"` returned one zero-star landing-page repository. These differing counts illustrate how query formulation changes the sample.
+| Query seed | Relevant suggestions observed | Interpretation |
+|---|---|---|
+| `linkedin jobs mcp` | `linkedin jobs mcp server`, `linkedin mcp job search`, `linkedin job search mcp server`, `linkedin job scraper mcp` | Supports the natural task/integration phrase family. |
+| `linkedin job search mcp` | `linkedin job search mcp server`, `linkedin job search mcp` | Best match for Scout's primary wording. |
+| `job search mcp server` | The seed itself; `linkedin job search mcp server` | Broad demand proxy; weaker source specificity. |
+| `claude linkedin job search` | `claude linkedin job search skill`, `claude code linkedin job search`, `claude cowork linkedin job search`, `connect claude to linkedin job search` | Adjacent client/setup interest; not proof Scout has been tested in each client. |
+| `apify mcp linkedin` | The seed itself; `apify linkedin mcp server` | Integration interest, but provider-heavy Google intent below. |
+| `linkedin job research mcp` | `linkedin job search mcp`, `linkedin job search mcp server` | Suggestions favor the `search` family rather than a distinct `research` phrase. |
+| `apify linkedin jobs mcp` | None | No suggestion signal in this sample; not proof of zero demand. |
+| `resume matching mcp` | None | Demand not established here; a large adjacent incumbent also exists. |
+| `cv matching mcp` | None | Demand not established here. |
+| `linkedin mcp without login` | None | Useful factual feature, not a demand-established primary query. |
 
-## Search-engine cross-check
+Autocomplete is a **qualitative proxy**, not a search-volume estimate. A Google Trends comparison for four related queries returned HTTP 429; we stopped and obtained no usable trend series. No paid SEO volume/KD account or Google Keyword Planner data was available. We therefore do not assign monthly searches, numeric difficulty, or traffic forecasts to these phrases.
 
-The web search tool was also queried with `job research skills AI chat github`, `LinkedIn job research MCP github`, `LinkedIn job shortlist MCP github`, `Apify job research MCP github`, and quoted versions of the recommended phrases. The sampled results did not establish an incumbent with tens of thousands of stars for either complete recommended primary phrase. Broader variants did surface adjacent MCP projects, including [TSS99/linkedin-mcp](https://github.com/TSS99/linkedin-mcp), [raaaaaif/linkedin-research-agent-mcp](https://github.com/raaaaaif/linkedin-research-agent-mcp), and [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server). The first two had **0 stars** and the latter **4,191** in the live public GitHub API snapshot.
+## Actual Google results
 
-These are useful comparisons because Tau Scout is narrower: local job research via a configured Apify Actor, rather than a signed-in LinkedIn browser/profile/outreach system. Describe the implemented source and workflow accurately. Exact quoted searches returning few results can also indicate low demand; this research did not measure query volume, click-through rate, conversions, or Google-specific personalized rankings.
+These observations came from direct browser inspection of Google on the research date, separately from a general web-search tool. Search URLs requested `hl=en`, `gl=us` and `pws=0`; Google displayed “Results are not personalized”. Actual location was not verified, so these are **not universal US rankings**. AI Overview references were kept separate from ordinary organic results. The table records the visible result sample, not a fabricated complete ranked top ten.
 
-## Where the phrases belong
+| Actual Google query | Visible organic results | Assessment |
+|---|---|---|
+| [linkedin job search mcp server](https://www.google.com/search?q=linkedin+job+search+mcp+server&hl=en&gl=us&pws=0) | #1 MCPMarket job-search listing; #2 `stickerdaniel/linkedin-mcp-server`. Other observed results included Reddit, MCPServers, PulseMCP, Docker Hub, a LinkedIn video, Apify and MCP.so. | Recommended precise primary. Directories and a 4.2k-star incumbent make competition moderate. |
+| [linkedin jobs mcp server](https://www.google.com/search?q=linkedin+jobs+mcp+server&hl=en&gl=us&pws=0) | #1 `stickerdaniel/linkedin-mcp-server`. Other observed results included MCPMarket, MCPServers, Reddit, `Rom7699/linkedin-jobs-mcp-server`, MCP.so, LinkupAPI, Docker Hub and Apify. | Natural secondary variant; the established competitor remains prominent. |
+| [apify linkedin mcp server](https://www.google.com/search?q=apify+linkedin+mcp+server&hl=en&gl=us&pws=0) | Approximately seven of nine visible results were Apify-owned platform/Actor pages, including the official LinkedIn MCP page first and curious_coder/shahidirfan pages. | Reject as primary. Few direct GitHub results do not make the provider-dominated query easy. Use for a useful integration guide. |
+| [linkedin job research mcp](https://www.google.com/search?q=linkedin+job+research+mcp&hl=en&gl=us&pws=0) | #1 MCPMarket job-search listing; #2 `saisudhir14/linkedin-mcp-search`. Other observed results included Reddit, MCPServers, LinkedIn, FirstTouch, PulseMCP, Docker Hub and Apify. | The old phrase is not an empty niche and overlaps the search family. |
 
-- Put each primary phrase in the repository display title/H1, first explanatory paragraph, About description and banner alt text.
-- Use its natural variants in installation and workflow headings, usage examples, package description and relevant supporting documentation.
-- Use shared terms where the described feature is present: **AI chat job research**, **CV-to-job fit review**, **evidence-based job shortlist**, **student-program matching**, and **remote eligibility checks**.
-- Scout-specific terms: **local MCP server**, **LinkedIn job shortlist**, **bring your own Apify token**. Skills-specific terms: **Codex job research skills**, **job search brief skill**, **company research brief**.
-- Keep source code identifiers, tool names, skill names, licenses, factual evidence and historical reports precise. Keyword placement should help a reader identify the feature and follow setup, rather than change technical contracts or make unsupported claims.
+The displayed ranking belongs to this dated sample. The linked queries can change. General web-search results were used only to discover additional projects and primary documentation; they were not recorded as Google ranks.
 
-Suggested About topics (select only relevant ones and check GitHub's current topic limits): `job-research`, `job-search`, `agent-skills`, `codex`, `cv-analysis`, `job-matching`, `linkedin-jobs`, `mcp-server`, `model-context-protocol`, `apify`, `python`, `local-first`. The Skills repository does not itself implement an MCP server; keep its topics focused on skills and link the Scout companion.
+## GitHub popularity and product overlap
 
-## Primary evidence and method
+Stars were checked using GitHub's public repository REST API on 13 November. They screen for established adjacent projects; they are **not Google keyword difficulty**. A small direct competitor can still rank, and a provider domain can dominate without a GitHub result.
 
-Repository counts and exact stars were read anonymously from GitHub's public REST API (`GET /search/repositories?q=...&sort=stars&per_page=3` and `GET /repos/{owner}/{repo}`), without account tokens or mutations. Search-engine examples were opened on GitHub to inspect actual scope; no competitor implementation was copied.
+| Project | Stars at check | Overlap and consequence |
+|---|---:|---|
+| [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) | 4,205 | Prominent in actual Google. Broader LinkedIn browser/session workflows, including profiles, companies, jobs and messages. Meaningful incumbent; Scout's narrower local Apify job-search workflow needs a clear explanation. |
+| [Rom7699/linkedin-jobs-mcp-server](https://github.com/Rom7699/linkedin-jobs-mcp-server) | 1 | Direct jobs MCP using RapidAPI; observed in the Google sample. |
+| [administrativetrick/linkedin-mcp](https://github.com/administrativetrick/linkedin-mcp) | 2 | Direct LinkedIn jobs MCP. Low stars do not imply low Google competition. |
+| [johnisanerd/Apify-LinkedIn-Jobs-API](https://github.com/johnisanerd/Apify-LinkedIn-Jobs-API) | 0 | Direct Apify LinkedIn jobs project with MCP installation material; the Apify approach is not unique. |
+| [borgius/jobspy-mcp-server](https://github.com/borgius/jobspy-mcp-server) | 128 | Multi-source job-search MCP wrapper; adjacent to broader job-search queries. |
+| [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) | 4,717 | Multi-board Python scraping library; adjacent infrastructure, not the same MCP/chat product. |
+| [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) | 16,076 | Official platform-wide MCP. Avoid generic Apify MCP as primary; Scout is a bounded jobs-specific adapter. |
+| [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 29,274 | Large resume/matching product with [its own MCP documentation](https://resumematcher.fyi/docs/mcp-server/). Reject resume-matching MCP as primary: strong adjacent product and no suggestion signal in this sample. |
+| [FarzamHejaziK/claude-linkedin-assistant](https://github.com/FarzamHejaziK/claude-linkedin-assistant) | 237 | Adjacent Claude job-search/outreach workflow. Scout cannot apply or send messages. |
 
-- [career-ops](https://github.com/career-ops-hq/career-ops) — **82,111 stars**, broad AI job search/application workflow.
-- [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) — **71,364 stars**, CV/application/interview framework.
-- [linkedin_scraper](https://github.com/joeyism/linkedin_scraper) — **4,675 stars**, LinkedIn user-data scraping library.
-- [linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) — **4,191 stars**, profiles, companies, jobs and messages.
-- [job-research-analyst-skill](https://github.com/qiusuo0226/job-research-analyst-skill) — **2 stars**, adjacent career research skill.
+Reproduce the popularity check using, for example, [GitHub's API record for the prominent LinkedIn MCP incumbent](https://api.github.com/repos/stickerdaniel/linkedin-mcp-server). Counts can change. The `felipfr/linkedin-mcpserver` API request returned 403; its star count remains unknown and is not treated as zero.
 
-All figures can change after the research date. GitHub stars show project visibility in this comparison; they do not determine web search ranking. Revisit positioning using actual repository discovery/referral data after publication rather than promising that Tau will outrank a competitor.
+## Documentation and metadata application
+
+- Put the primary phrase in the H1, first explanation, banner alt/semantic text, package description and GitHub About. Use natural variants where they describe a real feature.
+- Link the practical [LinkedIn job search MCP guide](linkedin-job-search-mcp.md) from the README. Explain local stdio setup, an owned Apify token, free status/demo checks, disclosed paid limits, and follow-up in chat.
+- Describe the distinct workflow accurately: no LinkedIn login, no Tau backend, locally saved results, explicit experience/student/remote checks and visible uncertainty. Live search still requires an Apify account and can incur charges.
+- Keep the stable repository slug and technical identifiers. Do not rename tools or repeat phrases in historical output, source data or unrelated documentation.
+- Suggested relevant topics: `linkedin-job-search`, `linkedin-jobs`, `job-search-mcp`, `mcp-server`, `model-context-protocol`, `apify`, `job-research`, `job-matching`, `ai-chat`, `python`, `local-first`.
+
+After publication, review actual discovery/referral data and useful user feedback before expanding the phrase family. This study establishes a reasonable query to test and documents remaining competition; it does not establish enough demand to guarantee an acquisition channel.
